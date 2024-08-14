@@ -1,18 +1,17 @@
-# Radiant - Business analytics using R and Shiny
+# ProjectFusionAI
 
 <!-- [![Build Status](https://travis-ci.org/radiant-rstats/radiant.png?branch=master)](https://travis-ci.org/radiant-rstats/radiant) -->
 <!-- [![Coverage Status](https://img.shields.io/coveralls/vnijs/radiant.svg)](https://coveralls.io/r/vnijs/radiant?branch=master) -->
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/radiant)](https://CRAN.R-project.org/package=radiant)
 
-
-Radiant is an open-source platform-independent browser-based interface for business analytics in [R](https://www.r-project.org/). The application is based on the [Shiny](https://shiny.posit.co/) package and can be run locally or on a server. Radiant was developed by <a href="https://rady.ucsd.edu/faculty-research/faculty/vincent-nijs.html" target="\_blank">Vincent Nijs</a>. Please use the issue tracker on GitHub to suggest enhancements or report problems: https://github.com/radiant-rstats/radiant/issues. For other questions and comments please use radiant@rady.ucsd.edu.
+ProjectFusion AI is an open-source, platform-independent, browser-based interface for ML modeling in [R](https://www.r-project.org/). The application is based on the [Shiny](https://shiny.posit.co/) package and can be run locally or on a server. ProjectFusion AI was originally developed as Radiant by Vincent Nijs, and this version maintains all functionalities with appropriate acknowledgments to the original source. Radiant was developed by <a href="https://rady.ucsd.edu/faculty-research/faculty/vincent-nijs.html" target="\_blank">Vincent Nijs</a>. Please use the issue tracker on GitHub to suggest enhancements or report problems: https://github.com/radiant-rstats/radiant/issues. For other questions and comments please use radiant@rady.ucsd.edu.
 
 ## Key features
 
 - Explore: Quickly and easily summarize, visualize, and analyze your data
 - Cross-platform: It runs in a browser on Windows, Mac, and Linux
 - Reproducible: Recreate results and share work with others as a state file or an [Rmarkdown](https://rmarkdown.rstudio.com/) report
-- Programming: Integrate Radiant's analysis functions with your own R-code
+- Programming: Integrate Project Fusion AI's analysis functions with your own R-code
 - Context: Data and examples focus on business applications
 
 <iframe width="640" height="375" src="https://www.youtube.com/embed/7L3hDpLw53I" frameborder="0" allowfullscreen></iframe>
@@ -20,39 +19,39 @@ Radiant is an open-source platform-independent browser-based interface for busin
 
 #### Playlists
 
-There are two youtube playlists with video tutorials. The first provides a general introduction to key features in Radiant. The second covers topics relevant in a course on business analytics (i.e., Probability, Decision Analysis, Hypothesis Testing, Linear Regression, and Simulation).
+There are two youtube playlists with video tutorials. The first provides a general introduction to key features in Radiant. The second covers topics relevant to statistical modeling (i.e., Probability, Decision Analysis, Hypothesis Testing, Linear Regression, and Simulation).
 
 * <a href="https://www.youtube.com/playlist?list=PLNhtaetb48EedDmWPUqytnQv-qxmCGtxi" target="_blank">Introduction to Radiant</a>
 * <a href="https://www.youtube.com/playlist?list=PLNhtaetb48EdKRIY7MewCyvb_1x7dV3xw" target="_blank">Radiant Tutorial Series</a>
 
 #### Explore
 
-Radiant is interactive. Results update immediately when inputs are changed (i.e., no separate dialog boxes) and/or when a button is pressed (e.g., `Estimate` in _Model > Estimate > Logistic regression (GLM)_). This facilitates rapid exploration and understanding of the data.
+ProjectFusionAI is interactive. Results update immediately when inputs are changed (i.e., no separate dialog boxes) and/or when a button is pressed (e.g., `Estimate` in _Model > Estimate > Logistic regression (GLM)_). This facilitates rapid exploration and understanding of the data.
 
 #### Cross-platform
 
-Radiant works on Windows, Mac, or Linux. It can run without an Internet connection and no data will leave your computer. You can also run the app as a web application on a server.
+ProjectFusionAI works on Windows, Mac, or Linux. It can run without an Internet connection and no data will leave your computer. You can also run the app as a web application on a server.
 
 #### Reproducible
 
 To conduct high-quality analysis, simply saving output is not enough. You need the ability to reproduce results for the same data and/or when new data become available. Moreover, others may want to review your analysis and results. Save and load the state of the application to continue your work at a later time or on another computer. Share state files with others and create reproducible reports using [Rmarkdown](https://rmarkdown.rstudio.com/). See also the section on `Saving and loading state` below
 
-If you are using Radiant on a server you can even share the URL (include the SSUID) with others so they can see what you are working on. Thanks for this feature go to [Joe Cheng](https://github.com/jcheng5).
+If you are using ProjectFusionAI on a server you can even share the URL (include the SSUID) with others so they can see what you are working on. Thanks for this feature go to [Joe Cheng](https://github.com/jcheng5).
 
 #### Programming
 
-Although Radiant's web-interface can handle quite a few data and analysis tasks, you may prefer to write your own R-code. Radiant provides a bridge to programming in R(studio) by exporting the functions used for analysis (i.e., you can conduct your analysis using the Radiant web-interface or by calling Radiant's functions directly from R-code). For more information about programming with Radiant see the [programming](https://radiant-rstats.github.io/docs/programming.html) page on the documentation site.
+Although ProjectFusionAI's web-interface can handle quite a few data and analysis tasks, you may prefer to write your own R-code. ProjectFusionAI provides a bridge to programming in R(studio) by exporting the functions used for analysis (i.e., you can conduct your analysis using the ProjectFusionAI web-interface or by calling ProjectFusionAI's functions directly from R-code). For more information about programming with ProjectFusionAI see the [programming](https://radiant-rstats.github.io/docs/programming.html) page on the documentation site.
 
 #### Context
 
 Radiant focuses on business data and decisions. It offers tools, examples, and documentation relevant for that context, effectively reducing the business analytics learning curve.
 
-## How to install Radiant
+## How to install ProjectFusionAI
 
 - Required: [R](https://cran.r-project.org/) version 4.0.0 or later
 - Required: [Rstudio](https://posit.co/download/rstudio-server/)
 
-In Rstudio you can start and update Radiant through the `Addins` menu at the top of the screen. To install the latest version of Radiant for Windows or Mac, with complete documentation for off-line access, open R(studio) and copy-and-paste the command below:
+In Rstudio you can start and update ProjectFusionAI through the `Addins` menu at the top of the screen. To install the latest version of ProjectFusionAI for Windows or Mac, with complete documentation for off-line access, open R(studio) and copy-and-paste the command below:
 
 ```r
 options(repos = c(RSM = "https://radiant-rstats.github.io/minicran", CRAN = "https://cloud.r-project.org"))
