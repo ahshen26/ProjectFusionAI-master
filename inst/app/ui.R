@@ -4,7 +4,7 @@ navbar_proj(
     do.call(
       navbarPage,
       c(
-        "Project FusionAI",
+        "ClinSight",
         getOption("radiant.nav_ui"),
         getOption("radiant.design_ui"),
         getOption("radiant.basics_ui"),
