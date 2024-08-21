@@ -4,7 +4,13 @@ navbar_proj(
     do.call(
       navbarPage,
       c(
-        "ClinSight",
+        list(
+          tags$div(
+            style = "display: flex; align-items: center; gap: 10px;",  # Adjust spacing
+            tags$img(src = "https://i.postimg.cc/hGwvKHc7/figure-1.png", height = "20px", width = "40px"),  # Adjust height/width to fit
+            tags$span("ClinSight")
+          )
+        ),
         getOption("radiant.nav_ui"),
         getOption("radiant.design_ui"),
         getOption("radiant.basics_ui"),
@@ -16,3 +22,4 @@ navbar_proj(
     )
   )
 )
+
