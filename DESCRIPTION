@@ -9,7 +9,7 @@ Description: A platform-independent browser-based interface for business
     functionality of 'radiant.data', 'radiant.design', 'radiant.basics',
     'radiant.model', and 'radiant.multivariate'.
 Depends:
-    R (>= 4.3.0),
+    R (>= 4.2.0),
     radiant.data (>= 1.6.6),
     radiant.design (>= 1.6.6),
     radiant.basics (>= 1.6.6),
